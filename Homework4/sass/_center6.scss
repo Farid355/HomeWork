@@ -1,0 +1,141 @@
+.container5 {
+    width: 100%;
+    height:100%;
+margin-top: 20px;
+overflow: hidden;
+.heading2{
+    z-index: 2;
+    line-height: 65px;
+    position: relative;
+    top: 300px;
+    left: 140px;
+   
+    letter-spacing: 1px;
+
+      p {
+          font-size: 55px;
+          
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000000;
+      }
+    }
+    .center5{
+       padding-top: 10px;
+        width: 80%;
+        height: 700px;
+        float: right;
+        border: 10px solid;
+        border-width: 10px;
+   
+        // border-color: #c1c6fc;
+        border-color: #d8f3d7;
+        margin-right: 15px;
+ .contact-nav {
+     display: flex;
+     flex-direction: row;
+     opacity: 0.7;
+   margin: 0px 50px 0px 50px;
+ }
+ li {
+     padding-left: 35px;
+     color: #202020;
+     font-size: 18px;
+     font-family: Roboto,sans-serif;
+ }
+i {
+    margin-top:100px;
+    margin-right: 15px;
+   
+}
+
+.contact {
+margin-top:7em;
+
+    .name {
+        display: flex;
+    flex-direction: column;
+// box-shadow:1px 0px 1px 0px;
+outline: none;
+line-height: 1.5px;
+color: #495057;
+font-weight: 500;
+font-size: 16px;
+text-shadow: 1px 1px 1px #000000;
+border: none;
+margin-right: auto;
+margin-left: auto;
+padding-left: 10px;
+
+
+ 
+}
+    }  
+    .btn2 button{
+  
+        text-align: center;
+        margin-right: 15px;
+        width: 40rem;
+        height: 3rem;
+        border-radius: 20px;
+        font-size: 16px;
+        font-family: Roboto,sans-serif;
+        margin-top: 3em;
+       
+       
+     
+        letter-spacing: 0.5px;  
+        border:none;
+    background-color: #000000;
+    color: #fff;
+       
+       
+        &:hover {
+   
+background-color: crimson;
+
+        }
+        
+    }
+    .last-btn .btn2 button {
+        width: 48%;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20em;
+        outline: none;
+        border: none;
+       
+
+    }
+     
+}
+
+}.social-icons1 button {
+    margin-left: 10px;
+    padding: 1px;
+   border:none;
+   outline: none;
+   background-color: #fff;
+   border-radius: 45px;
+   height: 30px;
+   width: 30px;
+   display: inline;
+   margin-top: -50px;
+   visibility: visible;
+   
+   
+
+    &:hover {
+    color: #fff; 
+    background-color: #000;
+
+   
+  
+    
+   
+    }
+    
+    
+}
