@@ -1,0 +1,16 @@
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin space-between {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin float-r-l {
+
+    
+    float: right;
+}
