@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Salam meleku</title>
+</head>
+<body>
+   
+    <div class="container-fluid"> 
+        <div class="column">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Papua_New_Guinea.svg" class="img" alt=""> 
+     <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/800px-Flag_of_Mozambique.svg.png" class="img1" alt="" style="margin-left: 5px;margin-top: -10px;">
+     <img src=" https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Maldives.svg" class="img1" alt="" style="margin-left: 5px;margin-top: -10px;">
+     <img src=" https://flagpedia.net/data/flags/w580/tn.png" class="img1" alt="" style="margin-left: 5px;margin-top: -10px;">
+     <img src=" https://www.countryflags.com/wp-content/uploads/haiti-flag-png-large.png" class="img1" alt="" style="margin-left: 5px;margin-top: -10px;"></div>
+     <div class="btns" style="display: inline;">
+    <button type="button" class="btn btn-outline-danger" style="width: 295px; margin-top: 10px;margin-left: 2px
+    ; ">Bu hansı ölkənin bayrağıdır?</button>
+    <button type="button" class="btn btn-outline-warning" style="width: 295px; margin-top: 10px; margin-left: 6px;" >Bu hansı ölkənin bayrağıdır?</button>
+    <button type="button" class="btn btn-outline-success" style="width: 295px; margin-top: 10px; margin-left: 5px;" >Bu hansı ölkənin bayrağıdır?</button>
+    <button type="button" class="btn btn-outline-info" style="width: 305px; margin-top: 10px; margin-left: 5px; " >Bu hansı ölkənin bayrağıdır?</button>
+    <button type="button" class="btn btn-outline-primary" style="width: 280px; margin-top: 10px; margin-left: 5px; " >Bu hansı ölkənin bayrağıdır?</button>
+    
+
+ <div class="answer" style="display: inline; margin-left: 0px;"> 
+    <button id="demo1" type="button" onclick="myFunction1()" class="btn btn-warning">Uganda</button>
+    
+    <button id="demo2" type="button" onclick="myFunction2()" class="btn btn-warning">Papua New Guinea</button>   
+</div>
+</div>
+
+
+
+<div class="btns1" style="margin-left: 2rem">
+<div class="answer"  > 
+<button id="demo3" type="button" onclick="myFunction3()" class="btn btn-dark">Mozambique</button>
+<button id="demo4" type="button" onclick="myFunction4()" class="btn btn-dark">Angola</button>
+
+</div>
+</div>
+<div class="btns1" style="margin-left: 3rem">
+    <div class="answer" style="font-family: Courier New, monospace"; > 
+    <button id="demo5" type="button" onclick="myFunction5()" class="btn btn-danger">Maldives</button>
+    <button id="demo6" type="button" onclick="myFunction6()" class="btn btn-danger">Nepal</button>
+    
+    </div>
+    </div>
+    <div class="btns1" style="margin-left: 3rem">
+        <div class="answer" style="font-family: Helvetica Narrow, sans-serif"; > 
+        <button id="demo7" type="button" onclick="myFunction7()" class="btn btn-secondary">Turkey</button>
+        <button id="demo8" type="button" onclick="myFunction8()" class="btn btn-secondary">Tunusia</button>
+        
+        </div>
+        </div>
+        <div class="btns2" style=" margin-left: 3.5rem">
+            <div class="answer" style="font-family: Helvetica Narrow, sans-serif"; > 
+            <button id="demo9" type="button" onclick="myFunction9()" class="btn btn-success"> Dominican</button>
+            <button id="demo10" type="button" onclick="myFunction10()" class="btn btn-success"> Haiti </button>
+            
+            </div>
+            </div>
+            
+</div>
+    <script>
+  function myFunction1() {
+    document.getElementById("demo1").innerHTML = "Yanlış Cavab";
+  }
+ 
+
+  function myFunction2() {
+    document.getElementById("demo2").innerHTML = "Doğru Cavab";
+  }
+  function myFunction3() {
+    document.getElementById("demo3").innerHTML = "Doğru Cavab";
+  }
+ 
+
+  function myFunction4() {
+    document.getElementById("demo4").innerHTML = "Yanlış Cavab";
+  }
+  function myFunction5() {
+    document.getElementById("demo5").innerHTML = "Doğru Cavab";
+  }
+ 
+
+  function myFunction6() {
+    document.getElementById("demo6").innerHTML = "Yanlış Cavab";
+  }
+  function myFunction7() {
+    document.getElementById("demo7").innerHTML = "Yanlış Cavab";
+  }
+ 
+
+  function myFunction8() {
+    document.getElementById("demo8").innerHTML = "Doğru Cavab";
+  }
+  function myFunction9() {
+    document.getElementById("demo9").innerHTML = "Yanlış Cavab";
+  }
+ 
+
+  function myFunction10() {
+    document.getElementById("demo10").innerHTML = "Doğru Cavab";
+  }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>

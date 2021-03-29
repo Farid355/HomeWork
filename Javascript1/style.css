@@ -1,0 +1,50 @@
+.container-fluid {
+    width: 100% !important;
+    height:330px;
+    border: 1px solid;
+    border-color: red;
+ margin: 0px !important;
+ padding: 0px !important;
+
+overflow-wrap: break-word;
+
+}
+.container-fluid .column {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.container-fluid .img {
+    width: 300px !important;
+    height: auto;
+   
+}
+.container-fluid .btns {
+    margin-top: 5px;
+    margin-left: 0px;
+    
+   
+  
+}
+.container-fluid .btns1 {
+    margin-top: 5px;
+    margin-left: 15px;
+   display: inline-flex;
+}
+.container-fluid .answer {
+    margin-top: 5px;
+    font-family: cursive;
+ margin-left: 3.7rem;
+}
+.container-fluid .btns2 {
+    margin-top: 5px;
+    margin-left: 5px;
+   display: inline-flex;
+  
+}
+.container-fluid .img1 {
+    width: 300px !important;
+    height: auto;
+    margin-top: 20px;
+}
