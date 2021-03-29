@@ -1,0 +1,66 @@
+.daark {
+    width: 100% ;
+    height: 512px ;
+    background: #000;
+ .row {
+     .col-md-6 {
+         margin-left: -1rem;
+         .imgcol6 {
+             width: 730.2px;
+             height:512px;
+             
+         }
+     }
+ }
+.row .header {
+    display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+ .row .header .head1 {
+     color: #fff;
+     font-family: "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+     font-size: 1.5rem;
+     margin-bottom: 15px;
+     margin-right: 14.5rem;
+ }
+ .row .header .head2 { 
+color: #fff;
+ font-size: 2.3rem;
+ font-weight: 700;
+ line-height: normal;
+ margin-bottom: 15px;
+ letter-spacing: 1px;
+ margin-top: 0px;
+}
+.row .header .phead3 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size:15px ;
+}
+.row .header .btn-outline-light {
+    width: 175px;
+    font-weight: 500;
+    font-size: 14.6667px;
+    letter-spacing: 1px;
+    color: #fff;
+    border: 2px solid #c8b16f;
+    border-bottom-width: 3px;
+    border-top-width: 3px;
+    background:none;
+    border-radius: 0px;
+    height: 45px;
+    padding: 0px 44px;
+    margin-right: 14rem;
+    
+   
+    
+    &:hover {
+        background-image: linear-gradient(to left, #c8b16f, #c7ab5a);
+        transition: all 0.5s ease;
+    }
+}
+}

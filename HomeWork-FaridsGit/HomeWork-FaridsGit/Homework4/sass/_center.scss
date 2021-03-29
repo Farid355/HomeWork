@@ -1,0 +1,106 @@
+.container {
+    width: 100%;
+    height: 630px;
+    animation-duration: 4s;
+    animation-name: slideright;
+    // animation-iteration-count:1;
+
+
+ 
+ @keyframes slideright{
+   from {
+     margin-right: 100%;
+   
+   }
+ 
+   to {
+     margin-right: 0%;
+    
+   } 
+   }
+ 
+    .center {
+        @include float-r-l;
+        width: 1100px;
+        height:100%;
+       background-image: url(https://megaone.acrothemes.com/portfolio-agency/img/slider-img.jpg);
+      background-repeat: no-repeat;
+      background-position: right;
+      margin-right: 18px;
+      position: relative;
+      margin-top: 15px;
+      
+      z-index: 3;
+  
+    }
+    .menu   { 
+        width:545px ;
+        height: 100%;
+   
+      
+        .list1 ul a  {
+           
+          font-size: 60px;
+          font-family: 'Montserrat',sans-serif;
+          font-weight: 700;
+          display:inline-flex;
+        position: relative;
+        z-index: 5;
+        top: 130px;
+        left: 157px;
+          padding-top: 15px;
+           flex-direction: row;
+            color: #000000;
+            background: #dc3545;
+            background: linear-gradient(to left, white 50%, #dc3545 50%) right;
+            background-size: 200%;
+            transition: .5s ease-out;
+            &:hover {
+             
+                background-position: left;
+                
+           
+            }
+          }
+          .ghost {
+            width: 300px;
+            height: 100%;
+            background-color: rgba(255, 255, 255 , 0.5);
+           position: relative;
+           left:400px;
+           top:-360px;
+           z-index: 4;
+        display: flex;
+      
+        }
+   
+        
+    }
+  
+    .social-icons button {
+        margin-left: 10px;
+        padding: 1px;
+       border:none;
+       overflow: hidden;
+       outline: none;
+       background-color: #fff;
+       border-radius: 45px;
+       height: 30px;
+       width: 30px;
+       display: inline;
+       margin-top: -110px;
+
+        &:hover {
+        color: #fff; 
+        background-color: #000;
+
+       
+      
+        
+       
+        }
+        
+    }
+    }
+  
+
